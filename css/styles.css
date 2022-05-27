@@ -200,6 +200,11 @@
     color: #FFFFFF;
 }
 
+.address:hover,
+.address:focus{
+    color: var(--accent-color);
+}
+
 .contacts{
     font-style: normal;
     font-weight: 400;
@@ -209,7 +214,10 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-
+.contacts:hover,
+.contacts:focus{
+    color: var(--accent-color);
+}
 
 
 
