@@ -2,6 +2,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --accent-bgc-color:#2F303A;
     --button-hover-color:#188ce8;
     --white-color: #FFFFFF;
     --section-color: #F5F4FA;
@@ -62,14 +63,11 @@
     color: var(--accent-color);
 }
 
-.contact-list .contact_item:visited{
-    color: #900060;
-}
 
 /* Section */
 
 .hero{
-    background: #2F303A;
+    background:var(--accent-bgc-color) ;
 }
 
 .hero-title{
@@ -188,7 +186,7 @@
 }
 
 .footer{
-    background: #2F303A;
+    background:var(--accent-bgc-color);
 }
 
 .logo_footer {
